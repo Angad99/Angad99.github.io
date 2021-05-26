@@ -1,11 +1,15 @@
+.topnav {
+	width: 100%;
+	border: none;
+	z-index: 1000;
+}
+
 nav {
-	font-size: 25px;
-	position: relative;
-	background-color: #4206;
-	float: none;
-	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
+	display: flex;
+	background-color: transparent;
+	justify-conent: center;
+	align-items: center;
+	
 }
 
 .current {
