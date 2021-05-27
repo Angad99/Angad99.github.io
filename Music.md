@@ -6,4 +6,8 @@ permalink: /music/
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HmUJGmEDdyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![](/music/nikki_song.mp3 "nikki song")
+
+<audio controls>
+  <source src="/music/nikki_song.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
