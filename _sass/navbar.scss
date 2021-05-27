@@ -29,3 +29,12 @@ nav a {
 nav a:hover{
   	color: black;
 }
+
+.site-info {
+	width: 50%;
+	display: flex;
+	text-decoration: none;
+	justify-content: flex-start;
+	padding: 10px;
+	font-size: 30px;
+}
