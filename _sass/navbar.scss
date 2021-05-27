@@ -3,18 +3,19 @@ header {
 	border: none;
 	z-index: 1000;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 }
 
 nav {
-	width: 50%;
+	width: 40%;
 	display: flex;
 	background-color: transparent;
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
 	font-size: 25px;
+	margin-right: 20px;
 }
 
 nav a {
@@ -31,11 +32,11 @@ nav a:hover{
 }
 
 .site-info {
-	width: 50%;
+	width: 40%;
 	display: flex;
 	text-decoration: none;
 	justify-content: flex-start;
-	padding: 10px;
-	font-size: 30px;
+	padding-left: 10px;
+	align-items: center;
 }
 
