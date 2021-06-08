@@ -1,9 +1,10 @@
-.photobar {
-	display: flex;
-	justify-content: space-between;
-	align-content: center;
-}
+.bg {
+  background-image: url("/images/Jasper.jpg");
 
-.welcome {
-	text-align: center;
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
