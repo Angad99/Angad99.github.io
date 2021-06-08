@@ -1,7 +1,45 @@
 ---
-layout: default
+
 ---
 
-<div class = "bg"></div>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+  </head>
+
+  <body class = "bg">
+    <header>
+
+      <div class="site-info">
+        <h1 class="site-name">{{ site.name }}</h1>
+      </div>
+
+      {% include navigation.html %}
+
+    </header>
+
+    
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
+
 
 
