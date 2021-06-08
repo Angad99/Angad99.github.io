@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact
-permalink: /contact/
+title: About
+permalink: /about/
 ---
 
 [angad.pfuetzner@mail.mcgill.ca](mailto:angad.pfuetzner@mail.mcgill.ca)
