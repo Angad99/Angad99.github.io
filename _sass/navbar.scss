@@ -8,10 +8,10 @@ header {
 }
 
 nav {
-	width: 40%;
+	width: 100%;
 	display: flex;
 	background-color: transparent;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	padding: 10px;
 	font-size: 25px;
@@ -27,6 +27,7 @@ nav a {
 	order: 1;
 	text-decoration: none;
 	color: black;
+	padding: 15px;
 }
 
 .current {
@@ -38,7 +39,7 @@ nav a:hover{
 }
 
 .site-info {
-	width: 40%;
+	width: 100%;
 	display: flex;
 	text-decoration: none;
 	justify-content: center;
