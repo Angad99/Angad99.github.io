@@ -1,12 +1,3 @@
-.mainimg {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width:60%;
-	height:auto;
-}
-
-
 .bg {
 	display: flex;
 	margin: 0;
@@ -29,4 +20,13 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.homenav {
+	flex-flow: wrap;
+}
+
+.homelink {
+	width: 100%;
+    text-align: center;
 }
