@@ -1,5 +1,4 @@
 .homepageheader {
-	background-image: url("/images/parchment.jpg");
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -38,4 +37,8 @@
 .row {
 	justify-content: center;
 	align-items: center;
+}
+
+.homepagecontainer {
+	background-image: url("/images/parchment.jpg");
 }
